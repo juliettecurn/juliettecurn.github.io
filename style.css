@@ -1,0 +1,196 @@
+
+  html
+  {
+    box-sizing: border-box;
+    font-family: 'PT Mono', "Arial", sans-serif;
+    font-size: 12px;
+    /*background: blue;*/
+    margin: 1em;
+  }
+
+h1
+{
+
+    color : rgb(201, 194, 61);
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+
+}
+
+h2
+{
+    color : rgb(201, 194, 61);
+    font-size: 2em;
+    font-style: italic;
+
+}
+
+h3
+{
+  color : rgb(201, 194, 61);
+  font-size: 15px;
+  text-align: center;
+}
+
+p
+{
+  color : rgb(201, 194, 61);
+  font-size: 15px;
+  width: 40ch
+}
+
+a:hover, img:hover{
+  cursor: url(./coeur.png);
+}
+
+nav{
+  text-align: center;
+}
+
+a
+{
+  color : blue;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  /*text-shadow: 1em 1em rgb(201, 194, 61);*/
+
+}
+
+
+a:hover {
+
+  color: rgb(201, 194, 61);
+}
+
+a.click {
+  color : blue;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  /*text-shadow: 1em 1em rgb(201, 194, 61);*/
+
+}
+
+a.titleprojet{
+  color : rgb(201, 194, 61);
+  font-style: italic;
+  text-align: center;
+  font-size:1em;
+}
+
+
+body{
+  padding: 0em;
+  background: white;
+  margin: 5em;
+
+
+}
+
+  img {
+    max-width: 100%;
+    height:auto;
+    margin: auto;
+
+  }
+
+  hr.trait-fixe{
+
+    color: rgb(201, 194, 61);
+    top: 10em;
+    right: 30em;
+    border: none;
+    border-top: 8px solid;
+    width: 300px;
+    background: none;
+  }
+
+  figure {
+    width: 50%;
+    margin: auto;
+  }
+
+div.stick-fixe{
+  position: fixed;
+  width: 10%;
+  max-width: 40px;
+}
+
+.instagram
+{
+  right: 5em;
+  bottom: 5em;
+}
+
+.about{
+  left:5em;
+  top:5em;
+}
+
+.mail{
+  top:5em;
+  right:5em;
+}
+
+.flickr{
+  left:5em;
+  bottom:5em;
+}
+ div.travaux{
+   position: fixed;
+   width: 100%;
+   max-width: 200px;
+ }
+
+.travaux{
+  left: 10em;
+  top: 20em;
+
+}
+
+.contenu{
+  display: flex;
+}
+
+.colonne.image {
+  width: 25%;
+  margin-left: 3em;
+  padding-right: 5em;
+  position: relative;
+}
+.colonne.description
+{
+  width: 25%;
+  margin-left: 5em;
+  padding-right:5em;
+  position: relative;
+}
+
+.fixed {
+  position: absolute;
+}
+
+.boite {
+  display: flex;
+  align-content: space-between;
+}
+
+.colonne figure, .colonne p {
+  width: 90%;
+  max-width: 100%;
+}
+
+.colonne {
+  margin-top: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 5em;
+}
+
+.rosace{
+  max-width: 70%;
+  height: auto;
+  margin: auto;
+}
