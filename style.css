@@ -5,18 +5,38 @@
     font-family: 'PT Mono', "Arial", sans-serif;
     font-size: 12px;
     /*background: blue;*/
-    margin: 1em;
+    margin-top: 0em;
+    margin-bottom: 5em;
+    margin-right: 1em;
+    margin-left: 1em;
+    cursor: url('./coeur.png'),auto;
   }
+
+  body{
+    padding: 0em;
+    background: white;
+    margin: 5em;
+  }
+
+main{
+  margin-top: 4em;
+}
+ /* TITRE */
 
 h1
 {
-
+    z-index: 1;
     color : rgb(201, 194, 61);
     font-size: 2em;
     font-style: italic;
     text-align: center;
-
+    position: fixed;
+    top: 2em;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+/* TITRE ARTICLES */
 
 h2
 {
@@ -37,80 +57,72 @@ p
 {
   color : rgb(201, 194, 61);
   font-size: 15px;
-  width: 40ch
+  width: 40ch;
+
 }
 
+
+
+/* LIENS TYPOS */
+
+
 a:hover, img:hover{
-  cursor: url(./coeur.png);
+  cursor: url(./coeur.png), auto;
 }
+
+a
+{
+  color : rgb(201, 194, 61);
+  font-size: 1em;
+  font-style: italic;
+  text-align: center;
+  text-decoration: none;
+  /*text-shadow: 1em 1em rgb(201, 194, 61);*/
+
+}
+
+a:hover {
+  cursor: url(./coeur.png), auto;
+  color: rgb(201, 194, 61);
+}
+
 
 nav{
   text-align: center;
 }
 
-a
-{
-  color : blue;
-  font-size: 2em;
-  text-align: center;
-  text-decoration: none;
-  /*text-shadow: 1em 1em rgb(201, 194, 61);*/
 
-}
-
-
-a:hover {
-
-  color: rgb(201, 194, 61);
-}
-
-a.click {
-  color : blue;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  /*text-shadow: 1em 1em rgb(201, 194, 61);*/
-
-}
-
-a.titleprojet{
-  color : rgb(201, 194, 61);
-  font-style: italic;
-  text-align: center;
-  font-size:1em;
-}
-
-
-body{
-  padding: 0em;
-  background: white;
-  margin: 5em;
-
-
-}
-
-  img {
+img {
     max-width: 100%;
     height:auto;
     margin: auto;
-
   }
+.projet-image:hover {
+  overflow: hidden;
+}
 
-  hr.trait-fixe{
+.projet-image:hover img{
+  filter: opacity(70%);
+}
+
+hr.trait-fixe{
 
     color: rgb(201, 194, 61);
     top: 10em;
     right: 30em;
     border: none;
     border-top: 8px solid;
-    width: 300px;
+    width: 325px;
     background: none;
   }
 
-  figure {
+figure {
     width: 50%;
     margin: auto;
   }
+
+
+  /* STICKERS FIXES */
 
 div.stick-fixe{
   position: fixed;
@@ -142,6 +154,7 @@ div.stick-fixe{
    position: fixed;
    width: 100%;
    max-width: 200px;
+   z-index: 1;
  }
 
 .travaux{
@@ -150,8 +163,12 @@ div.stick-fixe{
 
 }
 
+
+/* COLONNES */
+
 .contenu{
   display: flex;
+  margin-top: 4em;
 }
 
 .colonne.image {
@@ -163,14 +180,11 @@ div.stick-fixe{
 .colonne.description
 {
   width: 25%;
-  margin-left: 5em;
+  margin-left: 3em;
   padding-right:5em;
   position: relative;
 }
 
-.fixed {
-  position: absolute;
-}
 
 .boite {
   display: flex;
@@ -188,6 +202,10 @@ div.stick-fixe{
   margin-right: 4em;
   margin-bottom: 5em;
 }
+
+
+
+/* IMAGES SPECIALES */
 
 .rosace{
   max-width: 70%;
