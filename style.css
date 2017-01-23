@@ -6,7 +6,7 @@
     font-size: 12px;
     /*background: blue;*/
     margin-top: 0em;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     margin-right: 1em;
     margin-left: 1em;
     /*cursor: url('./coeur.png'),auto;*/
@@ -34,6 +34,13 @@ h1
     top: 2em;
     left: 50%;
     transform: translateX(-50%);
+}
+
+footer{
+  position: relative;
+  text-align: center;
+  font-size: 9px;
+  font-family: sans-serif;
 }
 
 /* TITRE ARTICLES */
