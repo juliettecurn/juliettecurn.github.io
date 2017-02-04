@@ -1,6 +1,5 @@
 
-  html
-  {
+html{
     box-sizing: border-box;
     font-family: 'PT Mono', "Arial", sans-serif;
     font-size: 12px;
@@ -10,31 +9,38 @@
     margin-right: 3em;
     margin-left: 3em;
     /*cursor: url('./coeur.png'),auto;*/
-  }
+}
 
-  body{
+
+body{
     padding: 0em;
     background: white;
     margin: 6em;
-  }
+}
+
 
 main{
-  margin-top: 2em;
+    margin-top: 2em;
 }
+
+
+
+
+
+
  /* TITRE */
 
-h1
-{
-    z-index: 1;
-    color : rgb(201, 194, 61);
-    font-size: 2em;
-    font-style: italic;
-    text-align: center;
-    position: relative;
-    top: 0em;
-    left: 50%;
-    transform: translateX(-50%);
+
+ h1{
+   z-index: 1;
+   color : rgb(201, 194, 61);
+   text-align: center;
+   position: relative;
+   top: 0em;
+   left: 50%;
+   transform: translateX(-50%);
 }
+
 
 footer{
   position: relative;
@@ -43,30 +49,67 @@ footer{
   font-family: sans-serif;
 }
 
-/* TITRE ARTICLES */
 
-h2
-{
-    color : rgb(201, 194, 61);
-    font-size: 2em;
-    font-style: italic;
 
-}
 
-h3
-{
-  color : rgb(201, 194, 61);
-  font-size: 15px;
-  text-align: center;
-}
 
-p
-{
-  color : rgb(201, 194, 61);
+
+/* TYPO ARTICLES */
+
+
+p{
+  color : black;
   font-size: 15px;
   width: 40ch;
-
+  font-family: sans-serif;
+  font-weight: lighter;
 }
+
+
+/* titre article sans serif */
+
+h2{
+  color : black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+
+
+/* TYPO "A PROPOS"*/
+
+
+/* titre rubrique */
+
+h4{
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 2em;
+}
+
+/* paragraphe */
+
+h3{
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-left: 4em;
+  font-weight: lighter;
+}
+
+/* infos petites */
+
+h5{
+  color: black;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-left: 6em;
+}
+
+
+
+
 
 
 
@@ -77,21 +120,21 @@ a:hover, img:hover{
   cursor: url(./coeur.png), auto;
 }
 
-a
-{
+
+
+a{
   color : rgb(201, 194, 61);
-  font-size: 1em;
-  font-style: italic;
   text-align: center;
   text-decoration: none;
   /*text-shadow: 1em 1em rgb(201, 194, 61);*/
-
 }
 
-a:hover {
+
+
+a:hover{
   cursor: url(./coeur.png), auto;
-  color: rgb(201, 194, 61);
 }
+
 
 
 nav{
@@ -99,12 +142,16 @@ nav{
 }
 
 
-img {
+
+img{
     max-width: 100%;
     height: auto;
     margin: auto;
   }
-.projet-image:hover {
+
+
+
+.projet-image:hover{
   overflow: hidden;
 }
 
@@ -112,21 +159,28 @@ img {
   filter: opacity(70%);
 }
 
+
+
 hr.trait-fixe{
     margin: 0;
-    color: rgb(201, 194, 61);
+    color: black;
     top: 10em;
     right: 30em;
     border: none;
     border-top: 8px solid;
     width: 80%;
     background: none;
-  }
+}
+
 
 figure {
     width: 50%;
     margin: auto;
-  }
+}
+
+
+
+
 
 
   /* STICKERS FIXES */
@@ -137,8 +191,7 @@ div.stick-fixe{
   max-width: 40px;
 }
 
-.instagram
-{
+.instagram{
   right: 5em;
   bottom: 5em;
 }
@@ -157,18 +210,24 @@ div.stick-fixe{
   left:5em;
   bottom:5em;
 }
- div.travaux{
+
+
+div.travaux{
    position: fixed;
    width: 100%;
    max-width: 200px;
    z-index: 1;
- }
+}
+
 
 .travaux{
   left: 10em;
   top: 20em;
-
 }
+
+
+
+
 
 
 /* COLONNES */
@@ -180,17 +239,21 @@ div.stick-fixe{
 
 
 
-.boite {
+.boite{
   display: flex;
   align-content: space-between;
 }
 
-.colonne figure, .colonne p {
+
+
+.colonne figure, .colonne p{
   width: 90%;
   max-width: 100%;
 }
 
-.colonne {
+
+
+.colonne{
   flex-basis:50%;
   margin-top: 1em;
   margin-left: 4em;
@@ -200,12 +263,16 @@ div.stick-fixe{
   margin: auto;
 }
 
-.page {
+
+
+.page{
   margin: 0;
   width: 50%;
 }
 
-.description.page {
+
+
+.description.page{
   margin: 0;
   padding: 0;
   top: 13em;
@@ -214,9 +281,16 @@ div.stick-fixe{
   left: calc(50% + 5em);
 }
 
-.description.page p {
+
+
+.description.page p{
   width: 80%;
 }
+
+
+
+
+
 
 /* IMAGES SPECIALES */
 
