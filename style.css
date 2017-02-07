@@ -33,12 +33,13 @@ main{
 
  h1{
    z-index: 1;
-   color : rgb(201, 194, 61);
+   color : pink;
    text-align: center;
    position: relative;
    top: 0em;
    left: 50%;
    transform: translateX(-50%);
+
 }
 
 
@@ -58,7 +59,7 @@ footer{
 
 
 p{
-  color : black;
+  color : rgb(84, 86, 119);
   font-size: 15px;
   width: 40ch;
   font-family: sans-serif;
@@ -69,7 +70,7 @@ p{
 /* titre article sans serif */
 
 h2{
-  color : black;
+  color : rgb(84, 86, 119);
   font-size: 20px;
   font-family: sans-serif;
 }
@@ -82,7 +83,7 @@ h2{
 /* titre rubrique */
 
 h4{
-  color: black;
+  color : rgb(84, 86, 119);
   font-size: 20px;
   font-family: sans-serif;
   margin-left: 2em;
@@ -91,7 +92,7 @@ h4{
 /* paragraphe */
 
 h3{
-  color: black;
+  color : rgb(84, 86, 119);
   font-size: 15px;
   font-family: sans-serif;
   margin-left: 4em;
@@ -101,7 +102,7 @@ h3{
 /* infos petites */
 
 h5{
-  color: black;
+  color : rgb(84, 86, 119);
   font-size: 10px;
   font-family: sans-serif;
   margin-left: 6em;
@@ -123,7 +124,7 @@ a:hover, img:hover{
 
 
 a{
-  color : rgb(201, 194, 61);
+  color : pink;
   text-align: center;
   text-decoration: none;
   /*text-shadow: 1em 1em rgb(201, 194, 61);*/
@@ -163,7 +164,7 @@ img{
 
 hr.trait-fixe{
     margin: 0;
-    color: black;
+    color : rgb(84, 86, 119);
     top: 10em;
     right: 30em;
     border: none;
