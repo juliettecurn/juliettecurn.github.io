@@ -1,7 +1,7 @@
 
 html{
     box-sizing: border-box;
-    font-family: 'PT Mono', "Arial", sans-serif;
+    font-family:  'Roboto', sans-serif;
     font-size: 12px;
     /*background: blue;*/
     margin-top: 0em;
@@ -33,12 +33,14 @@ main{
 
  h1{
    z-index: 1;
-   color : pink;
+   color : black;
    text-align: center;
    position: relative;
    top: 0em;
    left: 50%;
    transform: translateX(-50%);
+   font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -59,8 +61,8 @@ footer{
 
 
 p{
-  color : rgb(84, 86, 119);
-  font-size: 15px;
+  color : black;
+  font-size: 20px;
   width: 40ch;
   font-family: sans-serif;
   font-weight: lighter;
@@ -70,9 +72,9 @@ p{
 /* titre article sans serif */
 
 h2{
-  color : rgb(84, 86, 119);
-  font-size: 20px;
-  font-family: sans-serif;
+  color : black;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -83,7 +85,7 @@ h2{
 /* titre rubrique */
 
 h4{
-  color : rgb(84, 86, 119);
+  color : black;
   font-size: 20px;
   font-family: sans-serif;
   margin-left: 2em;
@@ -92,7 +94,7 @@ h4{
 /* paragraphe */
 
 h3{
-  color : rgb(84, 86, 119);
+  color : black;
   font-size: 15px;
   font-family: sans-serif;
   margin-left: 4em;
@@ -102,7 +104,7 @@ h3{
 /* infos petites */
 
 h5{
-  color : rgb(84, 86, 119);
+  color : black;
   font-size: 10px;
   font-family: sans-serif;
   margin-left: 6em;
@@ -118,13 +120,13 @@ h5{
 
 
 a:hover, img:hover{
-  cursor: url(./coeur.png), auto;
+  cursor: url(./rond.png), auto;
 }
 
 
 
 a{
-  color : pink;
+  color : black;
   text-align: center;
   text-decoration: none;
   /*text-shadow: 1em 1em rgb(201, 194, 61);*/
@@ -133,7 +135,7 @@ a{
 
 
 a:hover{
-  cursor: url(./coeur.png), auto;
+  cursor: url(./rond.png), auto;
 }
 
 
@@ -157,14 +159,14 @@ img{
 }
 
 .projet-image:hover img{
-  filter: opacity(70%);
+  filter: opacity(20%);
 }
 
 
 
 hr.trait-fixe{
     margin: 0;
-    color : rgb(84, 86, 119);
+    color : black;
     top: 10em;
     right: 30em;
     border: none;
@@ -267,8 +269,8 @@ div.travaux{
 
 
 .page{
-  margin: 0;
-  width: 50%;
+  margin-left: 8em;
+  width: 40%;
 }
 
 
