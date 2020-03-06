@@ -316,7 +316,7 @@ div.directionartistique{
 
 .directionartistique{
   left: 50em;
-  top: 15em;
+  top: 12em;
 }
 
 
@@ -343,6 +343,18 @@ div.identiteevent{
 .identiteevent{
   left: 7em;
   top: 35em;
+}
+
+div.designtypo{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.designtypo{
+  left: 80em;
+  top: 10em;
 }
 
 
