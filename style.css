@@ -1,15 +1,17 @@
 
 html{
     box-sizing: border-box;
-    font-family:  'Roboto', sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 12px;
-    /*background: blue;*/
+    /*background: #fffced;*/
     margin-top: 0em;
     margin-bottom: 1em;
     margin-right: 3em;
     margin-left: 3em;
     /*cursor: url('./coeur.png'),auto;*/
 }
+
+
 
 
 body{
@@ -20,7 +22,7 @@ body{
 
 
 main{
-    margin-top: 2em;
+    margin-top: 0em;
 }
 
 
@@ -33,16 +35,62 @@ main{
 
  h1{
    z-index: 1;
-   color : black;
-   text-align: center;
+   color : #2b2b2b;
+   text-align: left;
    position: relative;
    top: 0em;
    left: 50%;
    transform: translateX(-50%);
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Vivaldi', serif;
+   font-size: 75px;
+ }
+
+ /* SOUS TITRE */
 
 
+
+ h6{
+   color : #2b2b2b;
+   text-align: left;
+   position: relative;
+   font-family: 'Heebo', sans-serif;
+   font-size: 25px;
+ }
+
+
+ /* LIEN PRO */
+
+ h7{
+   color : #2b2b2b;
+   text-align: left;
+   position: relative;
+   font-family: 'Heebo', sans-serif;
+   font-size: 25px;
+   text-decoration: underline;
 }
+
+
+  /* BIO DANS CONTACT */
+
+ h8{
+   color : #2b2b2b;
+   text-align: left;
+   position: relative;
+   font-family: 'Heebo', sans-serif;
+   font-size: 40px;
+}
+
+ /* BLING A LING CONTACT */
+
+ h9{
+   color : #2b2b2b;
+   text-align: left;
+   position: relative;
+   font-family: 'Heebo', sans-serif;
+   font-size: 40px;
+   text-decoration: underline;
+}
+
 
 
 footer{
@@ -61,21 +109,23 @@ footer{
 
 
 p{
-  color : black;
-  font-size: 20px;
+  color : #2b2b2b;
+  font-size: 15px;
   width: 40ch;
   font-family: sans-serif;
   font-weight: lighter;
+  position: fixed;
 }
 
 
 /* titre article sans serif */
 
 h2{
-  color : black;
-  font-size: 23px;
-  font-family: 'Roboto', sans-serif;
-}
+  color : #2b2b2b;
+  text-align: left;
+  font-family: 'Heebo', sans-serif;
+  font-size: 25px;
+  }
 
 
 
@@ -85,7 +135,7 @@ h2{
 /* titre rubrique */
 
 h4{
-  color : black;
+  color : #2b2b2b;
   font-size: 20px;
   font-family: sans-serif;
   margin-left: 2em;
@@ -94,21 +144,24 @@ h4{
 /* paragraphe */
 
 h3{
-  color : black;
+  color : #2b2b2b;
   font-size: 15px;
   font-family: sans-serif;
-  margin-left: 4em;
+  margin-left: 0em;
   font-weight: lighter;
+  position: relative;
+
 }
 
 /* infos petites */
 
 h5{
-  color : black;
+  color : #2b2b2b;
   font-size: 10px;
   font-family: sans-serif;
   margin-left: 6em;
 }
+
 
 
 
@@ -178,9 +231,18 @@ hr.trait-fixe{
 
 figure {
     width: 50%;
-    margin: auto;
+    margin: 0em;
 }
 
+hr.trait{
+    margin: 0;
+    color : black;
+    top: 100em;
+    right: 100em;
+    border-top: 1px solid;
+    width: 100%;
+    background: none;
+}
 
 
 
@@ -200,8 +262,8 @@ div.stick-fixe{
 }
 
 .about{
-  left:5em;
   top:5em;
+  right:5em;
 }
 
 .mail{
@@ -214,6 +276,11 @@ div.stick-fixe{
   bottom:5em;
 }
 
+.retour{
+  top:10em;
+  right:5em;
+}
+
 
 div.travaux{
    position: fixed;
@@ -224,12 +291,73 @@ div.travaux{
 
 
 .travaux{
-  left: 10em;
+  left: 20em;
   top: 20em;
 }
 
 
+div.designeditorial{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
 
+.designeditorial{
+  left: 70em;
+  top: 40em;
+}
+
+
+div.directionartistique{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.directionartistique{
+  left: 50em;
+  top: 12em;
+}
+
+
+div.designmotifs{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.designmotifs{
+  left: 50em;
+  top: 10em;
+}
+
+
+div.identiteevent{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.identiteevent{
+  left: 7em;
+  top: 35em;
+}
+
+div.designtypo{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.designtypo{
+  left: 80em;
+  top: 10em;
+}
 
 
 
@@ -237,12 +365,17 @@ div.travaux{
 
 .contenu{
   display: flex;
-  margin-top: 2em;
+  margin-top: 0em;
 }
 
 
 
 .boite{
+  display: flex;
+  align-content: space-between;
+}
+
+.boite1{
   display: flex;
   align-content: space-between;
 }
@@ -258,10 +391,20 @@ div.travaux{
 
 .colonne{
   flex-basis:50%;
-  margin-top: 1em;
-  margin-left: 4em;
-  margin-right: 4em;
-  margin-bottom: 1em;
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-bottom: 0em;
+  width: 100%;
+  margin: auto;
+}
+
+.colonne1{
+  flex-basis:70%;
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-bottom: 0em;
   width: 100%;
   margin: auto;
 }
@@ -289,6 +432,12 @@ div.travaux{
 .description.page p{
   width: 80%;
 }
+
+
+
+
+
+
 
 
 
