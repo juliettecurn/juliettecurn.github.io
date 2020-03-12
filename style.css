@@ -82,6 +82,42 @@ main{
 
  /* BLING A LING CONTACT */
 
+
+ h6{
+   color : #2b2b2b;
+   text-align: left;
+   position: relative;
+   font-family: 'Heebo', sans-serif;
+   font-size: 25px;
+ }
+
+
+ /* LIEN PRO */
+
+ h7{
+   color : #2b2b2b;
+   text-align: left;
+   position: relative;
+   font-family: 'Heebo', sans-serif;
+   font-size: 40px;
+   font-size: 25px;
+   text-decoration: underline;
+}
+
+
+
+  /* BIO DANS CONTACT */
+
+ h8{
+   color : #2b2b2b;
+   text-align: left;
+   position: relative;
+   font-family: 'Heebo', sans-serif;
+   font-size: 40px;
+}
+
+ /* BLING A LING CONTACT */
+
  h9{
    color : #2b2b2b;
    text-align: left;
@@ -302,6 +338,59 @@ div.designeditorial{
    max-width: 150px;
    z-index: 1;
 }
+
+
+.designeditorial{
+  left: 70em;
+  top: 40em;
+}
+
+
+div.directionartistique{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.directionartistique{
+  left: 50em;
+  top: 12em;
+}
+
+
+div.designmotifs{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.designmotifs{
+  left: 50em;
+  top: 10em;
+}
+
+
+div.identiteevent{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.identiteevent{
+  left: 7em;
+  top: 35em;
+}
+
+div.designtypo{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
 
 .designeditorial{
   left: 70em;
