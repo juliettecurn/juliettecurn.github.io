@@ -1,156 +1,3 @@
-/* TABLETTE */
-
-
-@media screen and (max-width: 730px) {
-
-    html {
-      font-size: 10px;
-      margin-top: 0em;
-      margin-bottom: 2em;
-      margin-right: 1em;
-      margin-left: 1em;
-    }
-
-    body{
-      margin: 2em;
-    }
-
-    a{
-      font-size: 1em;
-    }
-
-    main{
-      margin-top: 2em;
-    }
-
-
-    /* TITRE */
-
-   h1
-   {
-       z-index: 1;
-       color : rgb(201, 194, 61);
-       font-size: 2em;
-       font-style: italic;
-       text-align: center;
-       position: relative;
-       top: 1.5em;
-       left: 50%;
-       transform: translateX(-50%);
-   }
-
-
-   footer{
-     position: relative;
-     text-align: center;
-     font-size: 7px;
-     font-family: sans-serif;
-   }
-
-   html {
-     font-size: 10px;
-     margin-top: 0em;
-     margin-bottom: 2em;
-     margin-right: 1em;
-     margin-left: 1em;
-   }
-
-   body{
-     margin: 2em;
-   }
-
-   a{
-     font-size: 1em;
-   }
-
-   main{
-     margin-top: 2em;
-   }
-
-
-   /* TITRE */
-
-
-  h1
-  {
-      z-index: 1;
-      color : rgb(201, 194, 61);
-      font-size: 2em;
-      font-style: italic;
-      text-align: center;
-      position: relative;
-      top: 1.5em;
-      left: 50%;
-      transform: translateX(-50%);
-  }
-
-
-  footer{
-    position: relative;
-    text-align: center;
-    font-size: 7px;
-    font-family: sans-serif;
-  }
-
-
-  /* STICKERS FIXES */
-
-
-    div.stick-fixe{
-      position: fixed;
-      width: 10%;
-      max-width: 35px;
-    }
-
-    .instagram
-    {
-      right: 4em;
-      bottom: 4em;
-    }
-
-    .about{
-      left:4em;
-      top:4em;
-    }
-
-    .mail{
-      top:4em;
-      right:4em;
-    }
-
-    .flickr{
-      left:4em;
-      bottom:4em;
-    }
-     div.travaux{
-       position: fixed;
-       width: 100%;
-       max-width: 150px;
-       z-index: 1;
-     }
-
-    .travaux{
-      left: 10em;
-      top: 20em;
-
-    }
-
-    /* COLONNES */
-
-    .contenu{
-      display: flex;
-      margin-top: 4em;
-    }
-}
-
-
-
-
-
-
-
-
-
 /* PORTABLE */
 
 
@@ -158,6 +5,8 @@
 @media screen and (max-width: 500px) {
 
     html {
+      box-sizing: border-box;
+      font-family: 'Heebo', sans-serif;
       font-size: 8px;
       margin-top: 0em;
       margin-bottom: 2em;
@@ -184,172 +33,325 @@
    h1
    {
        z-index: 1;
-       color : rgb(201, 194, 61);
-       font-size: 2em;
-       font-style: italic;
-       text-align: center;
+       color : #2b2b2b;
+       text-align: left;
        position: relative;
        top: 1.5em;
        left: 50%;
        transform: translateX(-50%);
+       font-family: 'Vivaldi', serif;
+       font-size: 45px;
    }
 
 
-   footer{
+   /* SOUS TITRE */
+
+
+
+   h6{
+     color : #2b2b2b;
+     text-align: left;
      position: relative;
-     text-align: center;
-     font-size: 5px;
-     font-family: sans-serif;
+     font-family: 'Heebo', sans-serif;
+     font-size: 15px;
    }
 
 
-/* STICKERS FIXES */
+   /* LIEN PRO */
+
+   h7{
+     color : #2b2b2b;
+     text-align: left;
+     position: relative;
+     font-family: 'Heebo', sans-serif;
+     font-size: 15px;
+     text-decoration: underline;
+  }
 
 
-    div.stick-fixe{
-      position: fixed;
-      width: 10%;
-      max-width: 30px;
-    }
+    /* BIO DANS CONTACT */
 
-    .instagram
-    {
-      right: 3em;
-      bottom: 3em;
-    }
-
-    .about{
-      left:3em;
-      top:3em;
-    }
-
-    .mail{
-      top:3em;
-      right:3em;
-    }
-
-    .flickr{
-      left:3em;
-      bottom:3em;
-    }
-     div.travaux{
-       position: fixed;
-       width: 100%;
-       max-width: 100px;
-       z-index: 1;
-     }
-
-    .travaux{
-      left: 10em;
-      top: 20em;
-
-    }
+   h8{
+     color : #2b2b2b;
+     text-align: left;
+     position: relative;
+     font-family: 'Heebo', sans-serif;
+     font-size: 30px;
+  }
 
 
-    /* COLONNES */
+  /* BLING A LING CONTACT */
 
-    .contenu{
-      display: flex;
-      margin-top: 2em;
-    }
+
+  h6{
+    color : #2b2b2b;
+    text-align: left;
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+  }
+
+
+  /* LIEN PRO */
+
+  h7{
+    color : #2b2b2b;
+    text-align: left;
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-size: 15px;
+    text-decoration: underline;
+ }
+
+
+ /* BIO DANS CONTACT */
+
+h8{
+  color : #2b2b2b;
+  text-align: left;
+  position: relative;
+  font-family: 'Heebo', sans-serif;
+  font-size: 30px;
+}
+
+/* BLING A LING CONTACT */
+
+h9{
+  color : #2b2b2b;
+  text-align: left;
+  position: relative;
+  font-family: 'Heebo', sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+footer{
+  position: relative;
+  text-align: center;
+  font-size: 3px;
+  font-family: sans-serif;
+}
+
+/* TYPO ARTICLES */
+
+
+p{
+  color : #2b2b2b;
+  font-size: 10px;
+  width: 30ch;
+  font-family: sans-serif;
+  font-weight: lighter;
+  position: fixed;
+}
+
+/* titre article sans serif */
+
+h2{
+  color : #2b2b2b;
+  text-align: left;
+  font-family: 'Heebo', sans-serif;
+  font-size: 15px;
+  }
+
+  /* TYPO "A PROPOS"*/
+
+
+  /* titre rubrique */
+
+  h4{
+    color : #2b2b2b;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: 2em;
+  }
+
+  /* paragraphe */
+
+  h3{
+    color : #2b2b2b;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: 0em;
+    font-weight: lighter;
+    position: relative;
+
+  }
+
+
+  /* infos petites */
+
+  h5{
+    color : #2b2b2b;
+    font-size: 7px;
+    font-family: sans-serif;
+    margin-left: 6em;
+  }
+
+
+  /* STICKERS FIXES */
+
+div.stick-fixe{
+  position: fixed;
+  width: 10%;
+  max-width: 40px;
+}
+
+/*.instagram{
+  right: 5em;
+  bottom: 5em;
+}*/
+
+.about{
+  top:5em;
+  right:5em;
+}
+
+/*.mail{
+  top:5em;
+  right:5em;
+}
+
+.flickr{
+  left:5em;
+  bottom:5em;
+}
+
+.retour{
+  top:10em;
+  right:5em;
+}*/
+
+
+div.travaux{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
 }
 
 
+.travaux{
+  left: 20em;
+  top: 20em;
+}
 
 
-/* PORTABLE */
+div.designeditorial{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
 
 
-
-@media screen and (max-width: 400px) {
-
-    html {
-      font-size: 6px;
-      margin-top: 0em;
-      margin-bottom: 2em;
-      margin-right: 1em;
-      margin-left: 1em;
-    }
-
-    body{
-      margin: 4em;
-    }
-
-    a{
-      font-size: 1em;
-    }
-
-    main{
-      margin-top: 2em;
-    }
+.designeditorial{
+  left: 70em;
+  top: 40em;
+}
 
 
-    /* TITRE */
+div.directionartistique{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
+
+.directionartistique{
+  left: 50em;
+  top: 12em;
+}
 
 
-   h1
-   {
-       z-index: 1;
-       color : rgb(201, 194, 61);
-       font-size: 2em;
-       font-style: italic;
-       text-align: center;
-       position: relative;
-       top: 1.5em;
-       left: 50%;
-       transform: translateX(-50%);
-   }
+div.designmotifs{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
+
+.designmotifs{
+  left: 50em;
+  top: 10em;
+}
 
 
-   footer{
-     position: relative;
-     text-align: center;
-     font-size: 3px;
-     font-family: sans-serif;
-   }
+div.identiteevent{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
+
+.identiteevent{
+  left: 7em;
+  top: 35em;
+}
+
+div.designtypo{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
 
 
-/* STICKERS FIXES */
+.designeditorial{
+  left: 70em;
+  top: 40em;
+}
 
 
-    div.stick-fixe{
-      position: fixed;
-      width: 10%;
-      max-width: 20px;
-    }
+div.directionartistique{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
 
-    .instagram
-    {
-      right: 2em;
-      bottom: 2em;
-    }
+.directionartistique{
+  left: 50em;
+  top: 12em;
+}
 
-    .about{
-      left:2em;
-      top:2em;
-    }
 
-    .mail{
-      top:2em;
-      right:2em;
-    }
+div.designmotifs{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
 
-    .flickr{
-      left:2em;
-      bottom:2em;
-    }
-     div.travaux{
-       position: fixed;
-       width: 100%;
-       max-width: 70px;
-       z-index: 1;
-     }
+.designmotifs{
+  left: 50em;
+  top: 10em;
+}
 
-    .travaux{
-      left: 10em;
-      top: 20em;
 
-    }
+div.identiteevent{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
+
+.identiteevent{
+  left: 7em;
+  top: 35em;
+}
+
+div.designtypo{
+   position: fixed;
+   width: 100%;
+   max-width: 100px;
+   z-index: 1;
+}
+
+.designtypo{
+  left: 80em;
+  top: 10em;
+}
 
 
     /* COLONNES */
@@ -383,19 +385,4 @@
     margin: auto;
     margin-top: 2em;
   }
-}
-
-
-
-
-
-/* MEGA ECRAN */
-
-
-@media screen and (min-width: 2000px) {
-
-  html {
-  font-size:16px;
-  }
-
 }
