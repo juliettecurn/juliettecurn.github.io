@@ -449,6 +449,19 @@ div.designtypo{
 }
 
 
+div.identitevisuelle{
+   position: fixed;
+   width: 100%;
+   max-width: 150px;
+   z-index: 1;
+}
+
+.identitevisuelle{
+  left: 80em;
+  top: 10em;
+}
+
+
 
 
 
