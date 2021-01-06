@@ -7,7 +7,7 @@ html{
     margin-top: 0em;
     margin-bottom: 1em;
     margin-right: 3em;
-    margin-left: 3em;
+    margin-left: 6em;
     /*cursor: url('./coeur.png'),auto;*/
 }
 
@@ -208,9 +208,11 @@ h5{
 /* LIENS TYPOS */
 
 
+/*
 a:hover, img:hover{
   cursor: url(./rond.png), auto;
 }
+*/
 
 
 
@@ -222,11 +224,11 @@ a{
 }
 
 
-
+/*
 a:hover{
   cursor: url(./rond.png), auto;
 }
-
+*/
 
 
 nav{
